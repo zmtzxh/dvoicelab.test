@@ -39,15 +39,15 @@ h3{margin:0 0 15px;font-size:15px}.control{margin:18px 0}.row{display:flex;justi
       </div>
       <h3 style="margin-top:22px">Quick presets</h3>
       <div class="presets">
-        <button class="preset" data-preset="deep"><b>Deep</b><span>Lower pitch + warm</span>[span_1](start_span)[span_1](end_span)</button>
-        <button class="preset" data-preset="chip"><b>Chipmunk</b><span>Higher + brighter</span>[span_2](start_span)[span_2](end_span)</button>
-        <button class="preset" data-preset="robot"><b>Robot</b><span>Ring modulation</span>[span_3](start_span)[span_3](end_span)</button>
-        <button class="preset" data-preset="radio"><b>Radio</b><span>Band-limited voice</span>[span_4](start_span)[span_4](end_span)</button>
-        <button class="preset" data-preset="space"><b>Space</b><span>Echo + shimmer</span>[span_5](start_span)[span_5](end_span)</button>
-        <button class="preset" data-preset="clean"><b>Clean</b><span>Reset everything</span>[span_6](start_span)[span_6](end_span)</button>
-        <button class="preset" data-preset="megadist"><b>Megadist</b><span>Extreme distortion</span>[span_7](start_span)[span_7](end_span)</button>
-        <button class="preset" data-preset="cyber"><b>Cyber</b><span>Bitcrush + robot</span>[span_8](start_span)[span_8](end_span)</button>
-        <button class="preset" data-preset="dream"><b>Dream</b><span>Reverb + chorus feel</span>[span_9](start_span)[span_9](end_span)</button>
+        <button class="preset" data-preset="deep"><b>Deep</b><span>Lower pitch + warm</span></button>
+        <button class="preset" data-preset="chip"><b>Chipmunk</b><span>Higher + brighter</span></button>
+        <button class="preset" data-preset="robot"><b>Robot</b><span>Ring modulation</span></button>
+        <button class="preset" data-preset="radio"><b>Radio</b><span>Band-limited voice</span></button>
+        <button class="preset" data-preset="space"><b>Space</b><span>Echo + shimmer</span></button>
+        <button class="preset" data-preset="clean"><b>Clean</b><span>Reset everything</span></button>
+        <button class="preset" data-preset="megadist"><b>Megadist</b><span>Extreme distortion</span></button>
+        <button class="preset" data-preset="cyber"><b>Cyber</b><span>Bitcrush + robot</span></button>
+        <button class="preset" data-preset="dream"><b>Dream</b><span>Reverb + chorus feel</span></button>
       </div>
     </section>
 
@@ -65,7 +65,7 @@ h3{margin:0 0 15px;font-size:15px}.control{margin:18px 0}.row{display:flex;justi
       <div class="control"><div class="row"><label>Echo</label><span class="value" id="echoVal">0%</span></div><input class="range" id="echo" type="range" min="0" max="1" step=".01" value="0"></div>
       <div class="control"><div class="row"><label>Distortion <span style="color:#777;font-size:11px">up to 1000%</span></label><span class="value" id="distVal">0%</span></div><input class="range" id="dist" type="range" min="0" max="10" step=".01" value="0"></div>
       <div class="control"><div class="row"><label>Robot</label><span class="value" id="robotVal">0%</span></div><input class="range" id="robotFx" type="range" min="0" max="1" step=".01" value="0"></div>
-      <div class="control"><div class="row"><label>Bitcrush</label><span class="value" id="crushVal">0%</span></div><input class="range" id="crush" type="range" min="0" max="1" step=".01" value="0"></div>
+      <div class="control"><div class="row"><label>Bitcrush <span style="color:#777;font-size:11px">up to 800%</span></label><span class="value" id="crushVal">0%</span></div><input class="range" id="crush" type="range" min="0" max="8" step=".01" value="0"></div>
       <div class="control"><div class="row"><label>Flanger</label><span class="value" id="flangerVal">0%</span></div><input class="range" id="flanger" type="range" min="0" max="1" step=".01" value="0"></div>
       <div class="control"><div class="row"><label>Phaser</label><span class="value" id="phaserVal">0%</span></div><input class="range" id="phaser" type="range" min="0" max="1" step=".01" value="0"></div>
       <div class="control"><div class="row"><label>Ring modulation</label><span class="value" id="ringVal">0%</span></div><input class="range" id="ring" type="range" min="0" max="1" step=".01" value="0"></div>
@@ -78,15 +78,15 @@ h3{margin:0 0 15px;font-size:15px}.control{margin:18px 0}.row{display:flex;justi
     <section class="panel" style="grid-column:1/-1">
       <h3>5-band equalizer</h3>
       <div class="eq">
-        <div class="band"><input data-f="60" type="range" min="-12" max="12" value="0"><small>60Hz</small>[span_10](start_span)[span_10](end_span)</div>
-        <div class="band"><input data-f="250" type="range" min="-12" max="12" value="0"><small>250Hz</small>[span_11](start_span)[span_11](end_span)</div>
-        <div class="band"><input data-f="1000" type="range" min="-12" max="12" value="0"><small>1kHz</small>[span_12](start_span)[span_12](end_span)</div>
-        <div class="band"><input data-f="4000" type="range" min="-12" max="12" value="0"><small>4kHz</small>[span_13](start_span)[span_13](end_span)</div>
-        <div class="band"><input data-f="10000" type="range" min="-12" max="12" value="0"><small>10kHz</small>[span_14](start_span)[span_14](end_span)</div>
+        <div class="band"><input data-f="60" type="range" min="-12" max="12" value="0"><small>60Hz</small></div>
+        <div class="band"><input data-f="250" type="range" min="-12" max="12" value="0"><small>250Hz</small></div>
+        <div class="band"><input data-f="1000" type="range" min="-12" max="12" value="0"><small>1kHz</small></div>
+        <div class="band"><input data-f="4000" type="range" min="-12" max="12" value="0"><small>4kHz</small></div>
+        <div class="band"><input data-f="10000" type="range" min="-12" max="12" value="0"><small>10kHz</small></div>
       </div>
     </section>
   </div>
-  <div class="footer">Everything runs locally in your browser. Microphone permission is required for recording.[span_15](start_span)[span_15](end_span)</div>
+  <div class="footer">Everything runs locally in your browser. Microphone permission is required for recording.</div>
 </div>
 
 <script>
@@ -151,14 +151,14 @@ $('compress').onchange = e => settings.compress = e.target.checked;
 document.querySelectorAll('.eq input').forEach((e,i)=>e.oninput=()=>settings.eq[i]=+e.value);
 
 const presets={
- deep:{pitch:.68,speed:.92,volume:1,gainBoost:1,echo:.08,dist:.05,robot:0,eq:[4,3,0,-2,-3]},
- chip:{pitch:1.65,speed:1.12,volume:1,gainBoost:1,echo:0,dist:0,robot:0,eq:[-3,-2,1,4,5]},
- robot:{pitch:1,speed:1,volume:1,gainBoost:1,echo:.1,dist:.15,robot:.85,eq:[0,0,2,1,-1]},
- radio:{pitch:1,speed:1,volume:1,gainBoost:1,echo:0,dist:.05,robot:0,eq:[-7,-2,5,4,-5]},
- space:{pitch:1.12,speed:.96,volume:1,gainBoost:1,echo:.75,dist:0,robot:.1,eq:[1,0,1,3,2]},
+ deep:{pitch:.68,speed:.92,volume:1,gainBoost:1,echo:.08,dist:.05,robot:0,crush:0,eq:[4,3,0,-2,-3]},
+ chip:{pitch:1.65,speed:1.12,volume:1,gainBoost:1,echo:0,dist:0,robot:0,crush:0,eq:[-3,-2,1,4,5]},
+ robot:{pitch:1,speed:1,volume:1,gainBoost:1,echo:.1,dist:.15,robot:.85,crush:0,eq:[0,0,2,1,-1]},
+ radio:{pitch:1,speed:1,volume:1,gainBoost:1,echo:0,dist:.05,robot:0,crush:0,eq:[-7,-2,5,4,-5]},
+ space:{pitch:1.12,speed:.96,volume:1,gainBoost:1,echo:.75,dist:0,robot:.1,crush:0,eq:[1,0,1,3,2]},
  clean:{pitch:1,speed:1,volume:1,gainBoost:1,echo:0,dist:0,robot:0,crush:0,flanger:0,phaser:0,ring:0,reverb:0,gate:0,eq:[0,0,0,0,0]},
- megadist:{pitch:.92,speed:.96,volume:.85,gainBoost:1.5,echo:.08,dist:10,robot:.08,crush:.35,flanger:0,phaser:.15,ring:.1,reverb:.05,gate:.1,eq:[4,2,-2,4,2]},
- cyber:{pitch:1.05,speed:1,volume:.9,gainBoost:1.2,echo:.2,dist:2.5,robot:.65,crush:.75,flanger:.3,phaser:.5,ring:.55,reverb:.15,gate:.2,eq:[-2,3,2,5,4]},
+ megadist:{pitch:.92,speed:.96,volume:.85,gainBoost:1.5,echo:.08,dist:10,robot:.08,crush:2.5,flanger:0,phaser:.15,ring:.1,reverb:.05,gate:.1,eq:[4,2,-2,4,2]},
+ cyber:{pitch:1.05,speed:1,volume:.9,gainBoost:1.2,echo:.2,dist:2.5,robot:.65,crush:5.0,flanger:.3,phaser:.5,ring:.55,reverb:.15,gate:.2,eq:[-2,3,2,5,4]},
  dream:{pitch:1.05,speed:.95,volume:1,gainBoost:1,echo:.55,dist:0,robot:0,crush:0,flanger:.4,phaser:.2,ring:0,reverb:.85,gate:0,eq:[2,1,0,3,4]}
 };
 
@@ -186,7 +186,6 @@ async function render(){
  const decodedBuf = await tempAc.decodeAudioData(arr);
  tempAc.close();
 
- // Calculate exact required buffer duration dynamically to fix the 3-minute blank export bug
  const effectiveSpeed = settings.speed * settings.pitch;
  const renderedDuration = (decodedBuf.duration / effectiveSpeed) + 3.5; 
  const sampleRate = 44100;
@@ -209,7 +208,16 @@ async function render(){
  const filters=settings.eq.map((v,i)=>{let f=ac.createBiquadFilter();f.type=i===0?'lowshelf':i===4?'highshelf':'peaking';f.frequency.value=[60,250,1000,4000,10000][i];f.gain.value=v;f.Q.value=.8;return f});
  node.connect(filters[0]);for(let i=0;i<filters.length-1;i++)filters[i].connect(filters[i+1]);node=filters.at(-1);
  if(settings.dist){let d=ac.createWaveShaper();d.curve=curve(settings.dist);d.oversample='4x';node.connect(d);node=d}
- if(settings.crush){let q=ac.createWaveShaper(),steps=Math.max(2,Math.round(256-(settings.crush*252)));let c=new Float32Array(44100);for(let i=0;i<c.length;i++){let x=i*2/c.length-1;c[i]=Math.round(x*steps)/steps}q.curve=c;q.oversample='none';node.connect(q);node=q}
+ 
+ if(settings.crush){
+   let q=ac.createWaveShaper();
+   // Scale crushing intensity up to 800% (lower step count at higher settings for heavy bitcrushing)
+   let steps=Math.max(2, Math.round(256 / settings.crush));
+   let c=new Float32Array(44100);
+   for(let i=0;i<c.length;i++){let x=i*2/c.length-1;c[i]=Math.round(x*steps)/steps}
+   q.curve=c;q.oversample='none';node.connect(q);node=q;
+ }
+
  if(settings.gate){let comp=ac.createDynamicsCompressor();comp.threshold.value=-55+settings.gate*35;comp.knee.value=0;comp.ratio.value=20;comp.attack.value=.001;comp.release.value=.05;node.connect(comp);node=comp}
  if(settings.robot||settings.ring){let osc=ac.createOscillator(),mod=ac.createGain();osc.frequency.value=35+settings.robot*100+settings.ring*220;mod.gain.value=Math.max(settings.robot,settings.ring);osc.connect(mod);let am=ac.createGain();am.gain.value=1;node.connect(am);mod.connect(am.gain);node=am;osc.start()}
  if(settings.flanger){let delayF=ac.createDelay(.05),lfo=ac.createOscillator(),lg=ac.createGain();lfo.frequency.value=.15+settings.flanger*2.5;lg.gain.value=.003+settings.flanger*.012;lfo.connect(lg);lg.connect(delayF.delayTime);node.connect(delayF);let m=ac.createGain();m.gain.value=.35*settings.flanger;delayF.connect(m);node.connect(m);node=m;lfo.start()}
